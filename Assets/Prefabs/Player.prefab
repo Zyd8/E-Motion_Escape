@@ -197,7 +197,6 @@ GameObject:
   - component: {fileID: 4771475718124760317}
   - component: {fileID: 9102574561462365478}
   - component: {fileID: 7357396586275367236}
-  - component: {fileID: 6847355774656994752}
   - component: {fileID: 4768759655090231158}
   m_Layer: 3
   m_Name: Player
@@ -306,10 +305,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactionPoint: {fileID: 608292899455976388}
-  _interactionPointRadius: 0.5
+  _interactionPointRadius: 2
   _interactableMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   _numFound: 0
 --- !u!54 &4771475718124760317
 Rigidbody:
@@ -376,24 +375,6 @@ MonoBehaviour:
   health: 100
   playerStatsGUI: {fileID: 8930365633227010438}
   moveScene: {fileID: 0}
---- !u!114 &6847355774656994752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 929402927415490877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2023f56dc5853b998b2d63ea2bc55842, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactionPoint: {fileID: 608292899455976388}
-  _interactionPointRadius: 0.5
-  _interactableMask:
-    serializedVersion: 2
-    m_Bits: 128
-  _numFound: 0
 --- !u!114 &4768759655090231158
 MonoBehaviour:
   m_ObjectHideFlags: 0

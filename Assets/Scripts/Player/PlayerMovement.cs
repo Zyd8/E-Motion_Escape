@@ -14,13 +14,15 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask ground;
-    [SerializeField] Camera playerCamera; 
+    [SerializeField] Camera playerCamera;
 
 
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         playerCurrent = GetComponent<Rigidbody>();
-        hasDoubleJumped = false;
+        //hasDoubleJumped = false;
     }
     
 
@@ -28,10 +30,10 @@ public class PlayerMovement : MonoBehaviour
     { 
         Move();
 
-        if (IsGrounded())
-        {
-            hasDoubleJumped = false;
-        }
+        //if (IsGrounded())
+        //{
+            //hasDoubleJumped = false;
+        //}
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {

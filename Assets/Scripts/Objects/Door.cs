@@ -13,23 +13,8 @@ public class Door : MonoBehaviour, IInteractible
 
     public bool Interact(Interactor interactor)
     {
-        string currentSceneName = SceneManager.GetActiveScene().name;
-
-        if (currentSceneName == "MainScene")
-        {
-            Debug.Log("Opening Door for MainScene");
-            StartCoroutine(OpenDoor());
-        }
-        else if (currentSceneName == "IceRoomScene")
-        {
-            Debug.Log("Opening Door for IceRoomScene");
-            StartCoroutine(OpenDoorIceRoom());
-        }
-        else
-        {
-            Debug.LogWarning("Scene not recognized for door interaction.");
-        }
-
+        Debug.Log("Opening Door");
+        StartCoroutine(OpenDoor());
         return true;
     }
 
@@ -37,13 +22,6 @@ public class Door : MonoBehaviour, IInteractible
     {
         isOpened = true;
         door.GetComponent<Animator>().Play("DoorOpen");
-        yield return new WaitForSeconds(5.0f);
-    }
-
-    IEnumerator OpenDoorIceRoom()
-    {
-        isOpened = true;
-        door.GetComponent<Animator>().Play("DoorIceRoomOpen");
         yield return new WaitForSeconds(5.0f);
     }
 }
