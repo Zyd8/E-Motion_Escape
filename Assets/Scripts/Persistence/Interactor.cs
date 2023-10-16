@@ -19,7 +19,7 @@ public class Interactor : MonoBehaviour
         if (_numFound > 0)
         {
             var Interactable = _colliders[0].GetComponent<IInteractible>();
-            if (Interactable != null && Input.GetKeyDown("e"))
+            if (Interactable != null && (Input.GetKeyDown("e") || Input.GetButtonDown("Fire1")))
             {
                 Interactable.Interact(this);
             }

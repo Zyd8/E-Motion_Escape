@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class PlayerStats : MonoBehaviour
 {
-    [SerializeField] public int health = 100;
+    [SerializeField] public float health = 100f;
     [SerializeField] public PlayerStatsGUI playerStatsGUI;
 
     [SerializeField] public MoveScene moveScene;
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         health -= damage;
     }

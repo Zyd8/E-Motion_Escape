@@ -10,7 +10,7 @@ public class VoidKill : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            player.TakeDamage(1);
+            player.TakeDamage(5f);
             Debug.Log(player.health);
         }
     }

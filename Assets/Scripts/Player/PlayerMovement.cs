@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         playerCurrent = GetComponent<Rigidbody>();
-        //hasDoubleJumped = false;
+        hasDoubleJumped = true;
     }
     
 
