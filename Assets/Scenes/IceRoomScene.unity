@@ -316,7 +316,15 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3400874519908819880, guid: 901c7e8812e14ccd3b41bb91e571a659, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400874519908819880, guid: 901c7e8812e14ccd3b41bb91e571a659, type: 3}
       propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6321170666241066858, guid: 901c7e8812e14ccd3b41bb91e571a659, type: 3}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6321170666241066858, guid: 901c7e8812e14ccd3b41bb91e571a659, type: 3}
@@ -326,6 +334,10 @@ PrefabInstance:
     - target: {fileID: 8597118244237647304, guid: 901c7e8812e14ccd3b41bb91e571a659, type: 3}
       propertyPath: m_Name
       value: DoorExitNew
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597118244237647304, guid: 901c7e8812e14ccd3b41bb91e571a659, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8597118244237647304, guid: 901c7e8812e14ccd3b41bb91e571a659, type: 3}
       propertyPath: m_StaticEditorFlags

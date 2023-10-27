@@ -10,9 +10,10 @@ public class MoveScene : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void FailMenu()
+    public void Restart()
     {
-        SceneManager.LoadScene("FailMenuScene");
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name);
     }
 
     public void MainMenu()

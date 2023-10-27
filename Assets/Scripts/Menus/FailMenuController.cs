@@ -13,7 +13,7 @@ public class FailMenuController : MonoBehaviour
 
     public void TryAgain()
     {
-       SceneManager.LoadScene("IceRoomScene");
+        SceneManager.LoadScene("IceRoomScene");
     }
 
     public void MainMenu()

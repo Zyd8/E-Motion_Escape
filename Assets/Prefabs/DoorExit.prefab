@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 8771131333657024883}
   - component: {fileID: 5848337363215554863}
   - component: {fileID: 2781571371239948941}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Knob
   m_TagString: Untagged
   m_Icon: {fileID: 0}

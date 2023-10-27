@@ -19,7 +19,7 @@ public class PlayerStats : MonoBehaviour
     {
         if (health <= 0)
         {
-            moveScene.FailMenu();
+            moveScene.Restart();
         }
     }
 
