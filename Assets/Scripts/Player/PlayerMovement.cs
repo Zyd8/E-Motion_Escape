@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] LayerMask ground;
     [SerializeField] Camera playerCamera;
 
+    public bool canMove = true;
+
 
     void Start()
     {
@@ -27,23 +29,26 @@ public class PlayerMovement : MonoBehaviour
     
 
     void Update()
-    { 
-        Move();
-
-        //if (IsGrounded())
-        //{
-            //hasDoubleJumped = false;
-        //}
-
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+    {
+        if (canMove)
         {
-            Jump();
-        }
+            Move();
 
-        if (Input.GetButtonDown("Jump") && hasDoubleJumped == false && !IsGrounded())
-        {
-            Jump();
-            hasDoubleJumped = true;
+            //if (IsGrounded())
+            //{
+                //hasDoubleJumped = false;
+            //}
+
+            if (Input.GetButtonDown("Jump") && IsGrounded())
+            {
+                Jump();
+            }
+
+            if (Input.GetButtonDown("Jump") && hasDoubleJumped == false && !IsGrounded())
+            {
+                Jump();
+                hasDoubleJumped = true;
+            }
         }
     }
 
