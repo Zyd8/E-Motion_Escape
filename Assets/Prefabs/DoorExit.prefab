@@ -123,6 +123,7 @@ MonoBehaviour:
   door: {fileID: 3400874519908819880}
   isOpened: 0
   _prompt: Open me!
+  soundController: {fileID: 0}
 --- !u!95 &9080097307223226961
 Animator:
   serializedVersion: 5
@@ -258,7 +259,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1982161350771162315}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: DoorExit
   m_TagString: Untagged
   m_Icon: {fileID: 0}

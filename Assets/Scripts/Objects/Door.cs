@@ -10,6 +10,7 @@ public class Door : MonoBehaviour, IInteractible
     [SerializeField] public bool isOpened = false;
     [SerializeField] private string _prompt;
     public string InteractionPrompt => _prompt;
+    [SerializeField] public SoundController soundController;
 
     public bool Interact(Interactor interactor)
     {
@@ -20,6 +21,7 @@ public class Door : MonoBehaviour, IInteractible
 
     IEnumerator OpenDoor()
     {
+        soundController.DoorOopenSound();
         isOpened = true;
         door.GetComponent<Animator>().Play("DoorOpen");
         yield return new WaitForSeconds(5.0f);

@@ -9,8 +9,10 @@ public class Fruit : MonoBehaviour, IInteractible
     [SerializeField] public bool fruitTaken = false;
     [SerializeField] private string _prompt;
     public string InteractionPrompt => _prompt;
+    [SerializeField] public SoundController soundController;
     public bool Interact(Interactor interactor)
     {
+        soundController.InteractSound();
         Debug.Log("Got the Fruit");
         fruitTaken = true;
         fruit.SetActive(false);

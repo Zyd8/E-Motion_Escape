@@ -11,12 +11,27 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] public MoveScene moveScene;
 
     [SerializeField] public PlayerMovement playerMovement;
+    [SerializeField] public SoundController soundController;
 
     private bool isDead = false;
+    private bool canPlayHurtSound = true;
+    private float hurtSoundCooldown = 2.0f; 
 
     public void TakeDamage(float damage)
     {
+        if (canPlayHurtSound)
+        {
+            soundController.PlayerHurtSound();
+            canPlayHurtSound = false;
+            StartCoroutine(HurtSoundCooldown());
+        }
         health -= damage;
+    }
+
+    private IEnumerator HurtSoundCooldown()
+    {
+        yield return new WaitForSeconds(hurtSoundCooldown);
+        canPlayHurtSound = true;
     }
 
     private void CheckDead()
@@ -26,6 +41,7 @@ public class PlayerStats : MonoBehaviour
             isDead = true;
             playerMovement.canMove = false;
             deathMessage.ShowDeathMessage();
+            soundController.PlayerDeadSound();
             StartCoroutine(DeathRoutine());
         }
     }

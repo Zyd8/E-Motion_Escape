@@ -9,8 +9,10 @@ public class Plank3 : MonoBehaviour, IInteractible
     [SerializeField] private string _prompt;
     public string InteractionPrompt => _prompt;
     [SerializeField] public BoatBuilder boatBuilder;
+    [SerializeField] public SoundController soundController;
     public bool Interact(Interactor interactor)
     {
+        soundController.InteractSound();
         Debug.Log("Got the Plank3");
         boatBuilder.plankCtr++;
         plankTaken = true;
