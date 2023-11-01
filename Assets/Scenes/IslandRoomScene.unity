@@ -2069,37 +2069,9 @@ PrefabInstance:
       propertyPath: boatVisible
       value: 
       objectReference: {fileID: 929781717}
-    - target: {fileID: 565788926110874337, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 573832442744288364, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 574538540834572606, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 929402927415490877, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 929402927415490877, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2043937890857719149, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2927617206984589834, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3860886387390200794, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4642381955254727716, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2109,26 +2081,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4678063162075692691, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4893870514232256501, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-      propertyPath: _interactionPointRadius
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5246089386828049680, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6328222013218139777, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
       propertyPath: m_HorizontalAlignment
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 6507133912328215209, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-      propertyPath: boatBuilder
-      value: 
-      objectReference: {fileID: 1168900015}
     - target: {fileID: 6669506325076760342, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.13
@@ -2171,19 +2127,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6973049657606413531, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 694.2166
+      value: 598.0635
       objectReference: {fileID: 0}
     - target: {fileID: 6973049657606413531, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 105.53
+      value: 109.0944
+      objectReference: {fileID: 0}
+    - target: {fileID: 6973049657606413531, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -17.579895
       objectReference: {fileID: 0}
     - target: {fileID: 6973049657606413531, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -57.263
-      objectReference: {fileID: 0}
-    - target: {fileID: 8489481933758093406, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
+      value: -12.094513
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

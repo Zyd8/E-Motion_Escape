@@ -929,6 +929,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6507133912328215209, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
+      propertyPath: objectiveWrapper
+      value: 
+      objectReference: {fileID: 1063851350}
     - target: {fileID: 6669506325076760342, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.49474716
@@ -969,10 +973,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7842778949420837083, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-      propertyPath: doorOpen
-      value: 
-      objectReference: {fileID: 867555960}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2547,11 +2547,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4070774b0a10386ffac6a63ef316554f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &867555960 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 8909931688410405341, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-  m_PrefabInstance: {fileID: 313260440}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &916737154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2649,6 +2644,11 @@ Transform:
   - {fileID: 1990820656}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1063851350 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 580603565864629963, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
+  m_PrefabInstance: {fileID: 313260440}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1067747950 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 161574, guid: e4423bd1896b33e41ae72acb0cff70c4, type: 3}

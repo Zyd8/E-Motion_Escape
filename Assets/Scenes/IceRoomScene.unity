@@ -147,6 +147,10 @@ PrefabInstance:
       propertyPath: snow
       value: 
       objectReference: {fileID: 2082780232}
+    - target: {fileID: 6328222013218139777, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 6669506325076760342, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -187,18 +191,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.017
       objectReference: {fileID: 0}
-    - target: {fileID: 7357396586275367236, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-      propertyPath: soundController
-      value: 
-      objectReference: {fileID: 1512926742}
-    - target: {fileID: 7842778949420837083, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-      propertyPath: dead
-      value: 
-      objectReference: {fileID: 1512926752}
-    - target: {fileID: 7842778949420837083, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-      propertyPath: hurt
-      value: 
-      objectReference: {fileID: 1512926751}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -546,16 +538,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4070774b0a10386ffac6a63ef316554f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &1512926751 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 1704405175804238244, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-  m_PrefabInstance: {fileID: 94857755}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &1512926752 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 4938683902153352409, guid: 7c99ef5ad92daa81da707215414eb28c, type: 3}
-  m_PrefabInstance: {fileID: 94857755}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2082780231
 PrefabInstance:
   m_ObjectHideFlags: 0
